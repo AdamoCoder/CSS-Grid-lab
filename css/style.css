@@ -1,0 +1,300 @@
+#navigation { /*this is the whole page/container that I am putting my elements inside */
+    /* display: grid; */
+    width: 1440px;
+    height: 500px;
+    background-color: #F2F2F2;
+}
+
+#split { /*this is the last box in the page */
+    width: 1440px;
+    height: 64px;
+    position: absolute;
+    top: 250px;
+    background-color: #FFFFFF;
+}
+
+#button-split {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    left: 1260px;
+    font-size: 14px;
+    line-height: 16.41px;
+    background-color: black;
+    color: #FFFFFF; /*This changes the color of the text of the button */
+    border-radius: 10px; /*This makes the button have round edges */
+}
+
+#logo-4 {
+    width: 76px;
+    height: 29px;
+    position: absolute;
+    top: 18px;
+    left: 682px;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+#links-4 {
+    width: 288px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    left: 40px;
+}
+
+#link-4-1, #link-4-2, #link-4-3, #link-4-4 {
+    color: black;
+    font-size: 18px;
+    line-height: 21.09px;
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+}
+
+#link-4-4 {
+    left: 280px;
+    /* align-items: center; this does not put my link in the center of the div id split*/
+}
+
+#link-4-3 {
+    left: 200px;
+}
+
+#link-4-2 {
+    left: 120px;
+}
+
+#link-4-1 {
+    left: 40px;
+}
+
+#left { /*this is the second to last box in the page */
+    width: 1440px;
+    height: 64px;
+    position: absolute;
+    top: 168px;
+    background-color: #FFFFFF;
+}
+
+#logo-3, #logo-2, #logo {
+    width: 76px;
+    height: 29px;
+    position: absolute;
+    top: 18px;
+    left: 40px;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+#links-3a, #links-3b {
+    height: 22px;
+    position: absolute;
+    top: 21px;
+}
+
+#links-3a {
+    width: 288px;
+    left: 156px;
+}
+
+#link-3a-1, #link-3a-2, #link-3a-3, #link-3a-4{
+    width: 48px;
+}
+
+#link-3a-1, #link-3a-2, #link-3a-3, #link-3a-4, #link-3b-1, #link-3b-2, #link-3b-3 {
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    color: black;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+#link-3a-1 {
+    left: 156px;
+}
+
+#link-3a-2 {
+    left: 236px;
+}
+
+#link-3a-3 {
+    left: 316px;
+}
+
+#link-3a-4 {
+    left: 396px;
+}
+#link-3b-1 {
+    width: 29px;
+    left: 1045px;
+} 
+
+#link-3b-2 {
+    width: 37px;
+    left: 1106px;
+}
+
+#link-3b-3 {
+    width: 45px;
+    left: 1175px;
+}
+
+#button-left {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    left: 1260px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+#right { /*this is the second box on the page */
+    width: 1440px;
+    height: 64px;
+    position: absolute;
+    top: 84px;
+    background-color: #FFFFFF;
+}
+
+#links-2 {
+    width: 288px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    left: 932px;
+}
+
+#link-2-1, #link-2-2, #link-2-3, #link-2-4 {
+    width: 48px;
+    height: 22px;
+    color: black;
+    font-size: 18px;
+    line-height: 21.09px;
+} /*not adding the postion to these links made them
+line up correctly but I do not know why this worked
+since for the other ones I had to add this information.
+I also no longer have the spacing between these links, I
+think this is because to make them line up correctly I
+had to remove to the code about positioning (top and left) */
+
+/* #link-2-1, #link-2-2, #link-2-3, #link-2-4 {
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: black;
+}
+
+#link-2-1 {
+    left: 932px;
+}
+
+#link-2-2 {
+    left: 1012px;
+}
+
+#link-2-3 {
+    left: 1092px;
+}
+
+#link-2-4 {
+    left: 1172px;
+} */
+/*this was the origanal way I tried to write the CSS for this lab */
+#button-right {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    left: 1260px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+#center { /*this is the first box on the page */
+    width: 1440px;
+    height: 64px;
+    background-color: #FFFFFF;
+}
+
+#links {
+    width: 288px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    left: 576px;
+}
+
+#link-1, #link-2, #link-3, #link-4 {
+    width: 48px;
+    height: 22px; /*adding these two lines did nothing at all. Why? */
+    color: black;
+    font-size: 18px;
+    line-height: 21.09px;
+} /*same thing for this one as in the right'section about the links */
+/* #link-1, #link-2, #link-3, #link-4 {
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: black;
+} */ /*this is how I first tried to do it without having to continue to rewrite*/
+
+/* #link-1 {
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    left: 576px;
+}
+
+#link-2 {
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    left: 656px;
+}
+
+#link-3 {
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    left: 736px;
+}
+
+#link-4 {
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    top: 21px;
+    left: 816px;
+} */
+/* none of these links are lining up how there are supposed to either
+I dont think I started having this problem until I started to add tags together
+!even after rewriting them still not lined up right */
+
+#button-center {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    left: 1260px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* figure out how to put the links centered in the main div parts,
+USING CSS GRID!!!! 
+
+Also do not forgot that you need to add this to your GitHub! */
